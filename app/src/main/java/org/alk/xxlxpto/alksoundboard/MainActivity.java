@@ -1,6 +1,7 @@
 package org.alk.xxlxpto.alksoundboard;
 
 import android.app.ListActivity;
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -29,6 +30,8 @@ public class MainActivity extends ListActivity {
 
         mAdapter = new SoundAdapter(this, R.layout.list_row, mSounds);
         setListAdapter(mAdapter);
+
+
     }
 
 
@@ -65,7 +68,10 @@ public class MainActivity extends ListActivity {
 
     @Override
     public void onListItemClick(ListView parent, View v, int position, long id){
-        mMediaPlayer = MediaPlayer.create(this, mSounds.get(position).getIconResourceId());
+        /*Intent serviceIntent = new Intent(getApplicationContext(), SoundService.class);
+        serviceIntent.putExtra(Constants.SOUNDS, mSounds.get(position).getSoundResourceId());
+        getApplicationContext().startService(serviceIntent);*/
+        mMediaPlayer = MediaPlayer.create(this, mSounds.get(position).getSoundResourceId());
         mMediaPlayer.start();
     }
 

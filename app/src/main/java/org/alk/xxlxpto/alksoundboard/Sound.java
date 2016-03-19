@@ -1,14 +1,16 @@
 package org.alk.xxlxpto.alksoundboard;
 
+import java.io.Serializable;
+
 /**
  * Created by franc on 19/03/2016.
  */
-public class Sound {
+public class Sound  {
     private String mDescription;
     private int mSoundResourceId;
     private int mIconResourceId;
 
-    public Sound(String description, int soundResourceId, int iconResourceId){
+    public Sound(String description, int iconResourceId, int soundResourceId){
         mDescription = description;
         mSoundResourceId = soundResourceId;
         mIconResourceId = iconResourceId;
