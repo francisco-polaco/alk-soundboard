@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">ALK Soundboard</string>
+    <string name="ban">Ban</string>
+    <string name="altinus_channel_baixo">Altinus para baixo</string>
+    <string name="baza_channel">Baza do channel</string>
+    <string name="bora_lol">Bora LoL!</string>
+    <string name="duda_channel_baixo">Duda para baixo</string>
+    <string name="duda_channel_baixo2">Duda para baixo 2</string>
+    <string name="engage">Engage!</string>
+    <string name="facebook">Facebook do Rafa</string>
+    <string name="ff20">Surrender at 20</string>
+    <string name="forca">Surrender o Caralho!</string>
+    <string name="just_fdd">Jhust fodido</string>
+    <string name="kazix">Kazix</string>
+    <string name="pareces_sapo">Pareces o Sapo</string>
+    <string name="puta_de_ward">Puta da Ward</string>
+    <string name="quit">Quit</string>
+    <string name="sai_dai">Sai daí caralho!</string>
+    <string name="soundboard">Soundboards caralho!</string>
+    <string name="vira_bilha">Vira a bilha</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
 </resources>
