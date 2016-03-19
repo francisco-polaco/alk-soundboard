@@ -14,6 +14,12 @@ public class Sound {
         mIconResourceId = iconResourceId;
     }
 
+    public Sound(String description, int soundResourceId){
+        mDescription = description;
+        mSoundResourceId = soundResourceId;
+        mIconResourceId = R.mipmap.ic_launcher;
+    }
+
     public void setDescription(String description) { mDescription = description; }
     public String getDescription() { return mDescription; }
     public void setSoundResourceId(int id) { mSoundResourceId = id; }

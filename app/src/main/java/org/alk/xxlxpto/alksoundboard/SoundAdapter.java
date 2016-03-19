@@ -38,8 +38,8 @@ public class SoundAdapter extends ArrayAdapter<Sound>{
             if (description != null) {
                 description.setText(s.getDescription());
             }
-            ImageView icon = (ImageView) v.findViewById(R.id.icon);
-            icon.setImageResource(s.getIconResourceId());
+           // ImageView icon = (ImageView) v.findViewById(R.id.icon);
+           // icon.setImageResource(s.getIconResourceId());
         }
         return v;
     }

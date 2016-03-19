@@ -18,6 +18,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:dividerHeight="2dip"
-        android:textAlignment="center"/>
+        android:textAlignment="center"
+        />
 
 </RelativeLayout>
